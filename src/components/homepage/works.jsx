@@ -14,16 +14,11 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="./facebook.png"
-								alt="facebook"
-								className="work-image"
-							/>
-							<div className="work-title">Facebook</div>
+						
+							<div className="work-title">AR Manager</div>
 							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
+							The Property Recruitment Company · Full-time							</div>
+							<div className="work-duration"></div>
 						</div>
 
 						<div className="work">
