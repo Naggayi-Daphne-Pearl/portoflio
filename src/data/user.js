@@ -23,7 +23,6 @@ const INFO = {
 			"Experienced full-stack software engineer with a strong background in building large-scale systems using the latest technologies. Proven expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures..",
 	},
 
-
 	projects: [
 		{
 			title: "Digital Product Manager  - MobiKlinic ",
@@ -48,11 +47,11 @@ const INFO = {
 		{
 			title: "Opportunity Bridge",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Opportunity Bridge can be your best bet if you're looking to start a career in Germany! Let's take a closer look at Opportunity Bridge, its benefits, qualifying requirements, application procedure, available positions, and the top firms that recruit individuals after the programme.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link:'http://opportunity-bridges.com/'
+			link: "http://opportunity-bridges.com/",
 		},
 	],
 };

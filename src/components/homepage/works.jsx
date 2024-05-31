@@ -14,24 +14,59 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-						
-							<div className="work-title">AR Manager</div>
+							<img
+								src="../icon.png"
+								alt="mobiklinic"
+								className="work-image"
+							/>
+							<div className="work-title">
+								Digital Products Manager
+							</div>
 							<div className="work-subtitle">
-							The Property Recruitment Company · Full-time							</div>
-							<div className="work-duration"></div>
+								MobiKlinic · Full-time
+							</div>
+							<div className="work-duration">2023 - Present</div>
 						</div>
 
 						<div className="work">
 							<img
-								src="./twitter.png"
-								alt="twitter"
+								src="../icon.png"
+								alt="mobiklinic"
 								className="work-image"
 							/>
-							<div className="work-title">Twitter</div>
+							<div className="work-title">Software Engineer</div>
 							<div className="work-subtitle">
-								Software Engineer
+								MobiKlinic - Full-time
 							</div>
-							<div className="work-duration">2019 - Present</div>
+							<div className="work-duration">2023 - Present</div>
+						</div>
+
+
+						<div className="work">
+							<img
+								src="../Netify Logo.svg"
+								alt="mobiklinic"
+								className="work-image"
+							/>
+							<div className="work-title">Web Developer and IT Support</div>
+							<div className="work-subtitle">
+								Netify - Full-time
+							</div>
+							<div className="work-duration">Jan 2023 - May 2023</div>
+						</div>
+
+
+						<div className="work">
+							<img
+								src="../refactory.jpeg"
+								alt="refactory"
+								className="work-image"
+							/>
+							<div className="work-title">Front Engineer</div>
+							<div className="work-subtitle">
+								Refactory - Part-time
+							</div>
+							<div className="work-duration">2022 - 2023</div>
 						</div>
 					</div>
 				}
