@@ -1,0 +1,29 @@
+/* styles/article.css */
+
+.skills-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .skills-section {
+    flex: 1;
+  }
+  
+  .skills-section h3 {
+    margin-bottom: 10px;
+    color: #1e3a8a; /* Adjust the color to match your theme */
+  }
+  
+  .skills-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skills-section li {
+    background: #f3f4f6; /* Light background for each skill */
+    margin: 5px 0;
+    padding: 8px 10px;
+    border-radius: 5px;
+  }
+  

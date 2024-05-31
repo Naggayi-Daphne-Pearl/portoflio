@@ -23,6 +23,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Skills from "../components/homepage/skill";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -99,7 +100,10 @@ const Homepage = () => {
 								<div className="subtitle homepage-subtitle">
 									{INFO.homepage.description}
 								</div>
+
+								<div><Skills/></div>
 							</div>
+
 
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">

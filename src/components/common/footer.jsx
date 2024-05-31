@@ -20,6 +20,7 @@ const Footer = () => {
 						</li>
 						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
+							
 						</li>
 
 						<li className="footer-nav-link-item">

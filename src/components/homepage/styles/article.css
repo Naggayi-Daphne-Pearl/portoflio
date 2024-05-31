@@ -63,3 +63,35 @@
 		width: 100%;
 	}
 }
+
+
+/* styles/article.css */
+
+.skills-body {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	margin-top: 1rem;
+  }
+  
+  .skills-section {
+	flex: 1;
+  }
+  
+  .skills-section h3 {
+	margin-bottom: 10px;
+	color: var(--link-color);
+  }
+  
+  .skills-section ul {
+	list-style-type: none;
+	padding: 0;
+  }
+  
+  .skills-section li {
+	background: #fafafa; /* Light background for each skill */
+	margin: 5px 0;
+	padding: 8px 10px;
+	border-radius: 5px;
+  }
+  

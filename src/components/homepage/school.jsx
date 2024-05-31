@@ -22,10 +22,22 @@ const Schools = () => {
 							<div className="homepage-article-title">
 								Certificate in Software Engineer
 							</div>
-							<div className="work-subtitle">
-								Refactory 
-							</div>
+							<div className="work-subtitle">Refactory</div>
 							{/* <div className="work-duration">2022 - 2023</div> */}
+						</div>
+
+						<div className="work">
+							<img
+								src="../makerere-logo.jpeg"
+								alt="makerere"
+								className="work-image"
+							/>
+							<div className="homepage-article-title">
+								Cisco Certified Networking Associate CCNA
+							</div>
+							<div className="work-subtitle">
+								Makerere University
+							</div>
 						</div>
 
 						<div className="work">
