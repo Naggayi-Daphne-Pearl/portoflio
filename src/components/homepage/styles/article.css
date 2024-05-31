@@ -5,6 +5,7 @@
 	mix-blend-mode: normal;
 	border-radius: 20px;
 	opacity: 0.8;
+	padding: 1rem;
 }
 
 .homepage-article:hover {
@@ -15,6 +16,9 @@
 
 .homepage-article-content {
 	padding: 30px;
+}
+.works-body {
+	padding: 1rem;
 }
 
 .homepage-article-date {
