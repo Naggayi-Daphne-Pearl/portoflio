@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import "./styles/footer.css";
 
 const Footer = () => {
+	const getCurrentYear = () => {
+		return new Date().getFullYear();
+	};
 	return (
 		<React.Fragment>
 			<div className="footer">
@@ -18,7 +21,7 @@ const Footer = () => {
 						<li className="footer-nav-link-item">
 							<Link to="/projects">Projects</Link>
 						</li>
-						
+
 						<li className="footer-nav-link-item">
 							<Link to="/contact">Contact</Link>
 						</li>
@@ -27,7 +30,8 @@ const Footer = () => {
 
 				<div className="footer-credits">
 					<div className="footer-credits-text">
-						© 2023 Malik Akorode. All Rights Reserved.
+						© {getCurrentYear()} Naggayi Daphne Pearl. All Rights
+						Reserved.
 					</div>
 				</div>
 			</div>

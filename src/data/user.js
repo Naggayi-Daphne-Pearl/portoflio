@@ -1,63 +1,59 @@
 const INFO = {
 	main: {
 		title: "Reactfolio by truethari",
-		name: "Malik Akorede",
-		email: "Mal33@live.co.uk",
+		name: "Naggayi Daphne Pearl",
+		email: "daphnepearl101@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
-		github: "https://github.com/Malik-Akorede/",
-		linkedin: "https://www.linkedin.com/in/abdul-malik-akorede/",
+		github: "https://github.com/Naggayi-Daphne-Pearl",
+		linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 	},
 
 	homepage: {
 		title: "Full-stack web developer",
 		description:
-			"I am a full stack web developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills.",
+			"An adaptable and resourceful individual committed to overseeing and supporting software solutions.\nExperienced in coordinating existing software system feature updates to improve performance and add functionality. \n Offers a proactive and critical-thinking approach to issue resolution.",
 	},
 
 	about: {
-		title: "I’m Malik Akorede. I live in London, UK.",
+		title: "I’m Naggayi Daphne Pearl. I live in Kampala, Uganda.",
 		description:
-			"I am a full stack web developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills.",
+			"Experienced full-stack software engineer with a strong background in building large-scale systems using the latest technologies. Proven expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures..",
 	},
 
-	articles: {
-		title: "I'm passionate about pushing the boundaries of what's possible and inspiring the next generation of innovators.",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-	},
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Digital Product Manager  - MobiKlinic ",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Generate, curate, and publish 5 high-quality posts daily across multiple social media platforms, resulting in a 25% increase in overall engagement, fostering meaningful connections, and driving community engagement \n\nDirected the management of social media platforms, implementing targeted strategies that led to a 20% increase in organic reach and a 10% boost in follower interactions, enhancing brand visibility and engagement across platforms.",
+			logo: "../icon.png",
 			linkText: "View Project",
-			link: "https://github.com/Malik-Akorede",
+			linkedin: "http://mobiklinic.com/",
+			link: "https://www.linkedin.com/company/mobiklinicfoundation/",
 		},
 
 		{
-			title: "Project 2",
+			title: "Mobile Application Development - Mobiklinic",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+				"Oversee seamless integration of new feature updates into existing software systems of the Mobiklinic Applications, resulting in a 40% increase in user engagement and a 20% expansion of functionality, enhancing the overall user experience.",
+			logo: "../icon.png",
 			linkText: "View Project",
-			link: "https://github.com/Malik-Akorede/",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://play.google.com/store/apps/details?id=com.mobiklinicapp&pcampaignid=web_share",
 		},
 
 		{
-			title: "Project 3",
+			title: "Opportunity Bridge",
 			description:
 				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com/Malik-Akorede",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link:'http://opportunity-bridges.com/'
 		},
-
-		
 	],
 };
 

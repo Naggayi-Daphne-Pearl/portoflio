@@ -8,9 +8,9 @@ function article_1() {
 			"Cloud computing offers a range of benefits, including cost savings and increased flexibility. Find out why more businesses are turning to the cloud.",
 		keywords: [
 			"The Benefits of Cloud Computing",
-			"Malik Akorede",
-			"Malike Akorede",
-			"Malik Akorede",
+			"Naggayi Daphne Pearl",
+			"Naggayi Daphne Pearl",
+			"Naggayi Daphne Pearl",
 		],
 		style: `
 				.article-content {
@@ -48,9 +48,9 @@ function article_2() {
 		style: ``,
 		keywords: [
 			"Artificial Intelligence in Healthcare",
-			"Malik Akorede",
-			"Malike Akorede",
-			"Malike Akorede",
+			"Naggayi Daphne Pearl",
+			"Naggayi Daphne Pearl",
+			"Naggayi Daphne Pearl",
 		],
 		body: (
 			<React.Fragment>

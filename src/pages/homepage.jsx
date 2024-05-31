@@ -105,7 +105,7 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
+											src="about.jpeg"
 											alt="about"
 											className="homepage-image"
 										/>
@@ -145,7 +145,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							{/* <div className="homepage-articles">
+							<div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -160,7 +160,7 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div> */}
+							</div>
 
 							<div className="homepage-works">
 								<Works />

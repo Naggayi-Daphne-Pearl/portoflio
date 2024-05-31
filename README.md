@@ -13,10 +13,10 @@
 
 ## Authors
 
-👤 **Malik Akorede**
+👤 **Naggayi Daphne Pearl**
 
-- Github: [Malik Akorede](https://github.com/Malik-Akorede/)
-- Linkedin: [Malik Akorede](https://www.linkedin.com/in/abdul-malik-akorede/)
+- Github: [Naggayi Daphne Pearl](https://github.com/Naggayi-Daphne-Pearl)
+- Linkedin: [Naggayi Daphne Pearl](https://www.linkedin.com/in/daphne-naggayi-68070b185/)
 
 
 
