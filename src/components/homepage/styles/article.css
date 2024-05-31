@@ -27,9 +27,13 @@
 .homepage-article-title {
 	opacity: 1;
 	color: var(--primary-color);
-	font-size: 16px;
 	margin-bottom: 1em;
 	font-weight: 700;
+
+	font-size: 15px;
+	font-weight: 700;
+	padding-left: 20px;
+	margin-top: -3px;
 }
 
 .homepage-article-description {
@@ -37,6 +41,9 @@
 	color: var(--secondary-color);
 	font-size: 12px;
 	line-height: 1.5;
+
+
+	
 }
 
 .homepage-article-link {

@@ -17,7 +17,7 @@ import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
 import AllProjects from "../components/projects/allProjects";
-
+import Schools from "../components/homepage/school";
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
@@ -115,7 +115,6 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-socials">
-						
 							<a
 								href={INFO.socials.github}
 								target="_blank"
@@ -126,8 +125,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							
-						
+
 							<a
 								href={INFO.main.linkedin}
 								target="_blank"
@@ -145,7 +143,7 @@ const Homepage = () => {
 						</div>
 
 						<div className="homepage-after-title">
-							<div className="homepage-articles">
+							{/* <div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -160,7 +158,9 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+							</div> */}
+
+							<div className="homepage-articles"><Schools/></div>
 
 							<div className="homepage-works">
 								<Works />
