@@ -8,7 +8,7 @@ const INFO = {
 
 	socials: {
 		github: "https://github.com/Naggayi-Daphne-Pearl",
-		linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+		linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185",
 	},
 
 	homepage: {
@@ -25,19 +25,19 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Digital Product Manager  - MobiKlinic ",
+			title: "Facial Biometrics App  - MobiKlinic ",
 			description:
-				"Generate, curate, and publish 5 high-quality posts daily across multiple social media platforms, resulting in a 25% increase in overall engagement, fostering meaningful connections, and driving community engagement \n\nDirected the management of social media platforms, implementing targeted strategies that led to a 20% increase in organic reach and a 10% boost in follower interactions, enhancing brand visibility and engagement across platforms.",
+			"Integrated a React Native app with Simprints ID for enhanced user authentication and security.",
 			logo: "../icon.png",
 			linkText: "View Project",
 			linkedin: "http://mobiklinic.com/",
-			link: "https://www.linkedin.com/company/mobiklinicfoundation/",
+			link: "https://drive.google.com/file/d/1KI8Dxm8Ze-AFgqLbM3GM6j4YWq18Avv8/view",
 		},
 
 		{
 			title: "Mobile Application Development - Mobiklinic",
 			description:
-				"Oversee seamless integration of new feature updates into existing software systems of the Mobiklinic Applications, resulting in a 40% increase in user engagement and a 20% expansion of functionality, enhancing the overall user experience.",
+				"Developed a React Native app enabling Community Health Practitioners to provide essential health services in rural areas.",
 			logo: "../icon.png",
 			linkText: "View Project",
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
@@ -47,11 +47,38 @@ const INFO = {
 		{
 			title: "Opportunity Bridge",
 			description:
-				"Opportunity Bridge can be your best bet if you're looking to start a career in Germany! Let's take a closer look at Opportunity Bridge, its benefits, qualifying requirements, application procedure, available positions, and the top firms that recruit individuals after the programme.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"Designed and implemented a web platform connecting professionals with international job listings, fostering global career exploration.",
+			logo: "../wordpress.png",
 			linkText: "View Project",
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "http://opportunity-bridges.com/",
+		},
+		{
+			title: "HCLINIC - Mobiklinic",
+			description:
+				"Developed and designed a telemedicine market platform that connects doctors, patients, and facilities for virtual consultations via chat, phone, and messaging",
+			logo: "../icon.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://city-model.vercel.app/",
+		},
+		{
+			title: "Foundation - Mobiklinic",
+			description:
+				"Developed and designed Mobiklinic  platform ",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://foundation.mobiklinic.com/",
+		},
+		{
+			title: "Holdings - Mobiklinic",
+			description:
+				"Developed and designed Mobiklinic  platform ",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://mobiklinic.com/",
 		},
 	],
 };
