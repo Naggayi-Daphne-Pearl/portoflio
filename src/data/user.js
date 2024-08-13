@@ -63,6 +63,15 @@ const INFO = {
 			link: "https://www.yoklinic.com/",
 		},
 		{
+			title: "YoKlinic - Dashboard",
+			description:
+				"Developed and designed a telemedicine market platform to help doctors and patients their user information" ,
+			logo: "../icon.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://dashboard.yoklinic.com/",
+		},
+		{
 			title: "Foundation - Mobiklinic",
 			description:
 				"Developed and designed Mobiklinic  platform ",
