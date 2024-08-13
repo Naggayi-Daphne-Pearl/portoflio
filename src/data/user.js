@@ -54,13 +54,13 @@ const INFO = {
 			link: "http://opportunity-bridges.com/",
 		},
 		{
-			title: "HCLINIC - Mobiklinic",
+			title: "YoKlinic",
 			description:
 				"Developed and designed a telemedicine market platform that connects doctors, patients, and facilities for virtual consultations via chat, phone, and messaging",
 			logo: "../icon.png",
 			linkText: "View Project",
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://city-model.vercel.app/",
+			link: "https://www.yoklinic.com/",
 		},
 		{
 			title: "Foundation - Mobiklinic",
