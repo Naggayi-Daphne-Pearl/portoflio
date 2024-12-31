@@ -11,6 +11,8 @@ const Skills = () => {
 					<h3>Technical Skills</h3>
 					<ul>
 						<li>Python - (Django, Flask)</li>
+						<li>Google Cloud Platform</li>
+
 						<li>JavaScript- (React, React Native, Next Js)</li>
 						<li>Cross-platform Mobile Development</li>
 						<li>Data Structures and Algorithms</li>
