@@ -25,6 +25,23 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Agro Duuka",
+			description: "Developed and designed AgroDuuka Website  ",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://agroduuka.com/",
+		},
+			{
+			title: "Wedding Websites",
+			description: "Developed Wedding Websites using Withjoy.com ",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://withjoy.com/kevin-and-charlyanne",
+		},
+		
+		{
 			title: "Facial Biometrics App  - MobiKlinic ",
 			description:
 				"Integrated a React Native app with Simprints ID for enhanced user authentication and security.",
@@ -106,14 +123,7 @@ const INFO = {
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "https://mobiklinic.com/",
 		},
-		{
-			title: "Agro Duuka",
-			description: "Developed and designed AgroDuuka Website  ",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://agroduuka.com/",
-		},
+	
 	],
 };
 
