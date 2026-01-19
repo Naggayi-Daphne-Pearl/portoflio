@@ -49,7 +49,7 @@ const INFO = {
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "https://agroduuka.com/",
 		},
-			{
+		{
 			title: "Wedding Websites",
 			description: "Developed Wedding Websites using Withjoy.com ",
 			logo: "../wordpress.png",
