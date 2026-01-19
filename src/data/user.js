@@ -25,6 +25,23 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Kanzu Banking",
+			description: "Developed a Flutter application for the Kanzu Banking platform, providing SACCO and investment club members with seamless self-service banking capabilities",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://play.google.com/store/search?q=kanzu+banking&c=apps&hl=en",
+		},
+	
+		{
+			title: "Profile Zone",
+			description: "Built a comprehensive platform offering AI website building, bio-sites, and digital business cards to eliminate the need for expensive designers or complex coding.",
+			logo: "../wordpress.png",
+			linkText: "View Project",
+			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			link: "https://profile.zone/",
+		},
+			{
 			title: "Agro Duuka",
 			description: "Developed and designed AgroDuuka Website  ",
 			logo: "../wordpress.png",
@@ -97,24 +114,7 @@ const INFO = {
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "https://play.google.com/store/apps/details?id=com.market_doctor&pcampaignid=web_share",
 		},
-		{
-			title: "Opportunity Bridge",
-			description:
-				"Designed and implemented a web platform connecting professionals with international job listings, fostering global career exploration.",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "http://opportunity-bridges.com/",
-		},
 
-		{
-			title: "Foundation - Mobiklinic",
-			description: "Developed and designed Mobiklinic  platform ",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://foundation.mobiklinic.com/",
-		},
 		{
 			title: "Holdings - Mobiklinic",
 			description: "Developed and designed Mobiklinic  platform ",
