@@ -18,7 +18,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Naggayi Daphne Pearl. I live in Kampala, Uganda.",
+		title: "I am Naggayi Daphne Pearl. I live in Kampala, Uganda.",
 		description:
 			"Experienced full-stack software engineer with a strong background in building large-scale systems using the latest technologies. Proven expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures..",
 	},
@@ -41,22 +41,8 @@ const INFO = {
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "https://profile.zone/",
 		},
-			{
-			title: "Agro Duuka",
-			description: "Developed and designed AgroDuuka Website  ",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://agroduuka.com/",
-		},
-		{
-			title: "Wedding Websites",
-			description: "Developed Wedding Websites using Withjoy.com ",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://withjoy.com/kevin-and-charlyanne",
-		},
+	
+	
 		
 		{
 			title: "Facial Biometrics App  - MobiKlinic ",
@@ -94,34 +80,6 @@ const INFO = {
 			linkText: "View Project",
 			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
 			link: "https://dashboard.yoklinic.com/",
-		},
-
-		{
-			title: "Boss App ",
-			description:
-				"Personal Finance App to allow users to manage their finances.",
-			logo: "../boss_colored.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://drive.google.com/file/d/14Hu6bTNL9R_K2C_I8btgXTxXKakSE2l0/view?usp=drive_link",
-		},
-		{
-			title: "Market Doctors",
-			description:
-				"MarketDoctors is a social-impact healthcare app focused on delivering affordable and accessible healthcare services across Nigeria. This app offers users the convenience of healthcare at their doorstep, with features including scheduling medical consultations, health assessments, wellness management, and access to qualified healthcare providers.",
-			logo: "../mk-logo.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://play.google.com/store/apps/details?id=com.market_doctor&pcampaignid=web_share",
-		},
-
-		{
-			title: "Holdings - Mobiklinic",
-			description: "Developed and designed Mobiklinic  platform ",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://mobiklinic.com/",
 		},
 	
 	],
