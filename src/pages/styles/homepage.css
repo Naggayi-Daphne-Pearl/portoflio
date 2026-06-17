@@ -92,6 +92,22 @@
 	padding-top: 50px;
 }
 
+.homepage-view-all {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 8px;
+	color: var(--link-color);
+	font-weight: var(--fw-semibold);
+	font-size: var(--fs-sm);
+	text-decoration: none;
+	transition: gap 0.2s ease;
+}
+
+.homepage-view-all:hover {
+	gap: 12px;
+}
+
 .homepage-after-title {
 	display: flex;
 	gap: 30px;

@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import Logo from "../components/common/logo";
@@ -140,7 +142,14 @@ const Homepage = () => {
 							<div className="homepage-section-title">
 								Featured projects
 							</div>
-							<AllProjects />
+							<AllProjects featuredOnly />
+							<Link
+								to="/projects"
+								className="homepage-view-all"
+							>
+								View all projects
+								<FontAwesomeIcon icon={faArrowRight} />
+							</Link>
 						</div>
 
 						<div className="homepage-after-title">
