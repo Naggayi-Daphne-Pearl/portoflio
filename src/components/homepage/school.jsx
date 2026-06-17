@@ -10,7 +10,7 @@ const Schools = () => {
 		<div className="works">
 			<Card
 				icon={faGraduationCap}
-				title="Education"
+				title="Learning & growth"
 				body={
 					<div className="works-body">
 						<div className="work">

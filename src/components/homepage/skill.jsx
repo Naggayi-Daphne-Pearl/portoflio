@@ -36,11 +36,11 @@ const Skills = () => {
 	return (
 		<Card
 			icon={faCode}
-			title="Skills"
+			title="What I work with"
 			body={
 				<div className="skills-body">
 					<div className="skills-section">
-						<h3>Technical</h3>
+						<h3>Tools &amp; tech</h3>
 						<div className="skills-badges">
 							{technicalSkills.map((skill) => (
 								<span className="skill-badge" key={skill}>
@@ -50,7 +50,7 @@ const Skills = () => {
 						</div>
 					</div>
 					<div className="skills-section">
-						<h3>Soft skills</h3>
+						<h3>How I work</h3>
 						<div className="skills-badges">
 							{softSkills.map((skill) => (
 								<span className="skill-badge" key={skill}>

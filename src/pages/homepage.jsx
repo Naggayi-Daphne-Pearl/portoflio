@@ -140,7 +140,7 @@ const Homepage = () => {
 
 						<div className="homepage-projects">
 							<div className="homepage-section-title">
-								Featured projects
+								A few things I've built
 							</div>
 							<AllProjects featuredOnly />
 							<Link

@@ -40,13 +40,13 @@ const Contact = () => {
 
 					<div className="contact-container">
 						<div className="title contact-title">
-							Let's Get in Touch: Ways to Connect with Me
+							Let's talk.
 						</div>
 
 						<div className="subtitle contact-subtitle">
-							Thank you for your interest in getting in touch with
-							me. I welcome your feedback, questions, and
-							suggestions. The best way to reach me is through{" "}
+							I'd love to hear from you — whether it's a question,
+							an idea you're toying with, or just a hello. The
+							easiest way to reach me is on{" "}
 							<a
 								href={INFO.socials.linkedin}
 								target="_blank"
@@ -62,7 +62,7 @@ const Contact = () => {
 							>
 								GitHub
 							</a>
-							. I look forward to hearing from you!
+							. Drop me a message and I'll get back to you.
 						</div>
 					</div>
 

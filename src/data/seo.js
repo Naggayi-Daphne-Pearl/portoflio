@@ -2,7 +2,7 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"Naggayi Daphne Pearl — full-stack web & mobile developer in Kampala, Uganda. Experienced building scalable, reliable applications with Python, React, and React Native.",
+			"Hi, I'm Daphne — a full-stack developer in Kampala, Uganda. I build websites and mobile apps that help people, across finance and healthcare.",
 		keywords: [
 			"Naggayi Daphne Pearl",
 			"Full-stack developer",
@@ -14,7 +14,7 @@ const SEO = [
 	{
 		page: "about",
 		description:
-			"About Naggayi Daphne Pearl — full-stack software engineer with expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures.",
+			"A little about Daphne Pearl — a developer in Kampala who has spent three years building apps people rely on every day in finance and healthcare.",
 		keywords: [
 			"Naggayi Daphne Pearl",
 			"Full-stack engineer",
