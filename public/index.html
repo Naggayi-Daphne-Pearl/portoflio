@@ -4,8 +4,26 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="theme-color" content="#000000" />
-		<title>Reactfolio</title>
+		<meta name="theme-color" content="#0f0f12" />
+		<meta
+			name="description"
+			content="Portfolio of Naggayi Daphne Pearl — full-stack web & mobile developer based in Kampala, Uganda."
+		/>
+		<title>Daphne ~ Portfolio</title>
+		<script>
+			// Apply saved theme before paint to avoid a flash of the wrong theme.
+			(function () {
+				try {
+					var stored = localStorage.getItem("theme");
+					var prefersDark =
+						window.matchMedia &&
+						window.matchMedia("(prefers-color-scheme: dark)")
+							.matches;
+					var theme = stored || (prefersDark ? "dark" : "light");
+					document.documentElement.setAttribute("data-theme", theme);
+				} catch (e) {}
+			})();
+		</script>
 	</head>
 	<body>
 		<noscript>You need to enable JavaScript to run this app.</noscript>

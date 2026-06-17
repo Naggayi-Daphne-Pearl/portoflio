@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import ThemeToggle from "./themeToggle";
+
 import "./styles/navBar.css";
 
 const NavBar = (props) => {
@@ -39,15 +41,6 @@ const NavBar = (props) => {
 							>
 								<Link to="/projects">Projects</Link>
 							</li>
-							{/* <li
-								className={
-									active === "articles"
-										? "nav-item active"
-										: "nav-item"
-								}
-							>
-								<Link to="/articles">Articles</Link>
-							</li> */}
 							<li
 								className={
 									active === "contact"
@@ -61,6 +54,7 @@ const NavBar = (props) => {
 					</div>
 				</nav>
 			</div>
+			<ThemeToggle />
 		</React.Fragment>
 	);
 };

@@ -14,59 +14,59 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
-							<img
-								src="../icon.png"
-								alt="mobiklinic"
-								className="work-image"
-							/>
-							<div className="work-title">
-								Digital Products Manager
+							<div className="work-info">
+								<div className="work-title">
+									Full-Stack Developer
+								</div>
+								<div className="work-subtitle">
+									Kanzu Finance · Full-time
+								</div>
+								<div className="work-duration">
+									May 2025 - Present
+								</div>
 							</div>
-							<div className="work-subtitle">
-								MobiKlinic · Full-time
-							</div>
-							<div className="work-duration">2023 - Present</div>
 						</div>
 
 						<div className="work">
-							<img
-								src="../icon.png"
-								alt="mobiklinic"
-								className="work-image"
-							/>
-							<div className="work-title">Software Engineer</div>
-							<div className="work-subtitle">
-								MobiKlinic - Full-time
+							<div className="work-info">
+								<div className="work-title">
+									Senior Software Engineer
+								</div>
+								<div className="work-subtitle">
+									Profile Zone · Remote
+								</div>
+								<div className="work-duration">
+									Nov 2025 - Present
+								</div>
 							</div>
-							<div className="work-duration">2023 - Present</div>
 						</div>
 
-
 						<div className="work">
-							<img
-								src="../Netify Logo.svg"
-								alt="mobiklinic"
-								className="work-image"
-							/>
-							<div className="work-title">Web Developer and IT Support</div>
-							<div className="work-subtitle">
-								Netify - Full-time
+							<div className="work-info">
+								<div className="work-title">
+									Software Engineer & Digital Products Manager
+								</div>
+								<div className="work-subtitle">
+									MobiKlinic · Full-time
+								</div>
+								<div className="work-duration">
+									May 2023 - May 2025
+								</div>
 							</div>
-							<div className="work-duration">Jan 2023 - May 2023</div>
 						</div>
 
-
 						<div className="work">
-							<img
-								src="../refactory.jpeg"
-								alt="refactory"
-								className="work-image"
-							/>
-							<div className="work-title">Front Engineer</div>
-							<div className="work-subtitle">
-								Refactory - Part-time
+							<div className="work-info">
+								<div className="work-title">
+									Open Source Developer
+								</div>
+								<div className="work-subtitle">
+									OpenTelemetry
+								</div>
+								<div className="work-duration">
+									Oct 2024 - Dec 2024
+								</div>
 							</div>
-							<div className="work-duration">2022 - 2023</div>
 						</div>
 					</div>
 				}

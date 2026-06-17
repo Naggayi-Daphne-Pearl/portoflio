@@ -1,6 +1,15 @@
+@import "../../../data/styles.css";
+
 .logo {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 50%;
-	display: block;
-	margin: 0;
-	padding: 0;
+	background: var(--link-color);
+	color: #ffffff;
+	font-family: var(--secondary-font);
+	font-weight: var(--fw-extrabold);
+	letter-spacing: -0.02em;
+	user-select: none;
+	line-height: 1;
 }

@@ -2,8 +2,6 @@ const INFO = {
 	main: {
 		title: "Daphne ~ Portfolio",
 		name: "Naggayi Daphne Pearl",
-		email: "daphnepearl101@gmail.com",
-		logo: "../avatar.jpeg",
 	},
 
 	socials: {
@@ -12,76 +10,65 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web developer",
+		title: "Senior Full-Stack Developer",
 		description:
-			"An adaptable and resourceful individual committed to overseeing and supporting software solutions.\nExperienced in coordinating existing software system feature updates to improve performance and add functionality. \n Offers a proactive and critical-thinking approach to issue resolution.",
+			"Versatile, impact-driven developer with 3+ years architecting scalable web, mobile and systems solutions across FinTech and HealthTech. I design robust system architectures, optimise complex databases and build seamless API integrations.",
 	},
 
 	about: {
 		title: "I am Naggayi Daphne Pearl. I live in Kampala, Uganda.",
 		description:
-			"Experienced full-stack software engineer with a strong background in building large-scale systems using the latest technologies. Proven expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures..",
+			"Versatile and impact-driven software developer with over 3 years of experience architecting scalable web, mobile and systems solutions across the FinTech and HealthTech sectors. I have a proven track record designing robust system architectures, optimising complex databases and building seamless API integrations — and I'm adept at managing full-stack deployment workflows (Docker, CI/CD) within collaborative, agile teams.",
 	},
 
 	projects: [
 		{
 			title: "Kanzu Banking",
-			description: "Developed a Flutter application for the Kanzu Banking platform, providing SACCO and investment club members with seamless self-service banking capabilities",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			description:
+				"Built the Flutter mobile app for Kanzu Banking, a core-banking platform giving SACCO, VSLA and investment-club members secure self-service access to savings, loans and statements.",
+			linkText: "View on Google Play",
 			link: "https://play.google.com/store/search?q=kanzu+banking&c=apps&hl=en",
 		},
-	
+
+		{
+			title: "LipaCart",
+			description:
+				"Online grocery shopping app delivering fresh groceries to your doorstep, with recipes and customized shopping lists for a smoother shopping experience.",
+			linkText: "Visit site",
+			link: "https://www.lipacart.com/",
+		},
+
 		{
 			title: "Profile Zone",
-			description: "Built a comprehensive platform offering AI website building, bio-sites, and digital business cards to eliminate the need for expensive designers or complex coding.",
-			logo: "../wordpress.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+			description:
+				"Built a platform offering AI website building, bio-sites and digital business cards — removing the need for expensive designers or complex coding.",
+			linkText: "Visit site",
 			link: "https://profile.zone/",
 		},
-	
-	
-		
+
 		{
-			title: "Facial Biometrics App  - MobiKlinic ",
+			title: "Facial Biometrics — MobiKlinic",
 			description:
-				"Integrated a React Native app with Simprints ID for enhanced user authentication and security.",
-			logo: "../icon.png",
-			linkText: "View Project",
-			linkedin: "http://mobiklinic.com/",
+				"Integrated a React Native app with Simprints ID for biometric patient identification, improving authentication and security in the field.",
+			linkText: "Watch demo",
 			link: "https://drive.google.com/file/d/1KI8Dxm8Ze-AFgqLbM3GM6j4YWq18Avv8/view",
 		},
 
 		{
-			title: "Mobile Application Development - Mobiklinic",
+			title: "MobiKlinic App",
 			description:
-				"Developed a React Native app enabling Community Health Practitioners to provide essential health services in rural areas.",
-			logo: "../icon.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+				"Developed a React Native app enabling Community Health Practitioners to deliver essential health services in rural areas.",
+			linkText: "View on Google Play",
 			link: "https://play.google.com/store/apps/details?id=com.mobiklinicapp&pcampaignid=web_share",
 		},
+
 		{
 			title: "YoKlinic",
 			description:
-				"Developed and designed a telemedicine market platform that connects doctors, patients, and facilities for virtual consultations via chat, phone, and messaging",
-			logo: "../icon.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
+				"Designed and built a telemedicine marketplace connecting doctors, patients and facilities for virtual consultations via chat, phone and messaging.",
+			linkText: "Visit site",
 			link: "https://www.yoklinic.com/",
 		},
-		{
-			title: "YoKlinic - Dashboard",
-			description:
-				"Developed and designed a telemedicine market platform to help doctors and patients their user information",
-			logo: "../icon.png",
-			linkText: "View Project",
-			linkedin: "https://www.linkedin.com/in/daphne-naggayi-68070b185/",
-			link: "https://dashboard.yoklinic.com/",
-		},
-	
 	],
 };
 

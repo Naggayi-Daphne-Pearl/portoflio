@@ -1,14 +1,67 @@
 :root {
-	/* ------- colors ------- */
-	--primary-color: #27272a;
-	--secondary-color: #65656d;
-	--tertiary-color: #acacb4;
+	/* ------- light theme (default) ------- */
+	--primary-color: #18181b;
+	--secondary-color: #52525b;
+	--tertiary-color: #a1a1aa;
 	--quaternary-color: #e4e4e7;
+
 	--link-color: #14b8a6;
-	/* ---------------------- */
+	--link-color-hover: #0d9488;
+
+	--bg: #ffffff;
+	--bg-elevated: #fafafa;
+	--bg-rail: #fafafa;
+	--border-color: #ececef;
+	--card-bg: #ffffff;
+	--card-hover-bg: #fafafa;
+
+	--shadow-sm: 0px 2px 10px rgba(0, 0, 0, 0.06);
+	--shadow-md: 0px 8px 24px rgba(0, 0, 0, 0.08);
+	--scrollbar-track: #f1f1f1;
+	--scrollbar-thumb: #c7c7cc;
 
 	/* ------- fonts ------- */
-	--primary-font: "Heebo", sans-serif;
-	--secondary-font: "Roboto", sans-serif;
-	/* --------------------- */
+	--primary-font: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+	--secondary-font: "Plus Jakarta Sans", "Inter", sans-serif;
+
+	/* ------- type scale (fluid + uniform) ------- */
+	--fs-hero: clamp(2rem, 1.2rem + 3vw, 3rem); /* 32 → 48 */
+	--fs-h2: clamp(1.25rem, 1.05rem + 0.9vw, 1.625rem); /* 20 → 26 */
+	--fs-h3: 1.0625rem; /* 17 - card / item titles */
+	--fs-lg: 1.125rem; /* 18 */
+	--fs-body: 1rem; /* 16 */
+	--fs-sm: 0.875rem; /* 14 */
+	--fs-xs: 0.75rem; /* 12 */
+
+	--fw-regular: 400;
+	--fw-medium: 500;
+	--fw-semibold: 600;
+	--fw-bold: 700;
+	--fw-extrabold: 800;
+
+	--lh-tight: 1.2;
+	--lh-snug: 1.4;
+	--lh-normal: 1.6;
+}
+
+[data-theme="dark"] {
+	--primary-color: #f4f4f5;
+	--secondary-color: #b4b4bd;
+	--tertiary-color: #71717a;
+	--quaternary-color: #3f3f46;
+
+	--link-color: #2dd4bf;
+	--link-color-hover: #5eead4;
+
+	--bg: #0f0f12;
+	--bg-elevated: #18181b;
+	--bg-rail: #131316;
+	--border-color: #27272a;
+	--card-bg: #18181b;
+	--card-hover-bg: #1f1f23;
+
+	--shadow-sm: 0px 2px 10px rgba(0, 0, 0, 0.4);
+	--shadow-md: 0px 8px 24px rgba(0, 0, 0, 0.5);
+	--scrollbar-track: #18181b;
+	--scrollbar-thumb: #3f3f46;
 }

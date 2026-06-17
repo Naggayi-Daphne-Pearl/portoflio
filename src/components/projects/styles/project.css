@@ -1,72 +1,65 @@
 @import "../../../data/styles.css";
 
 .project {
-	mix-blend-mode: normal;
-	border-radius: 20px;
-	opacity: 0.8;
 	height: 100%;
+	border: 1px solid var(--border-color);
+	border-radius: 16px;
+	background: var(--card-bg);
+	overflow: hidden;
+	transition: transform 0.25s ease, box-shadow 0.25s ease,
+		border-color 0.25s ease;
 }
 
 .project a {
 	text-decoration: none;
+	display: block;
+	height: 100%;
 }
 
 .project:hover {
-	background: #fafafa;
-	opacity: 1;
-	transition: background-color 0.3s ease-in-out;
-}
-
-.project:hover .project-link {
-	color: var(--link-color);
-	transition: color 0.3s ease-in-out;
+	transform: translateY(-4px);
+	box-shadow: var(--shadow-md);
+	border-color: var(--link-color);
 }
 
 .project-container {
-	padding: 30px;
-}
-
-.project-logo {
-	width: 30px;
-}
-
-.project-logo img {
-	width: 100%;
+	padding: 26px;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	box-sizing: border-box;
 }
 
 .project-title {
 	font-family: var(--secondary-font);
 	color: var(--primary-color);
-	font-size: 16px;
-	padding-top: 15px;
-	margin-bottom: 1em;
-	font-weight: 700;
+	font-size: var(--fs-h3);
+	font-weight: var(--fw-bold);
+	margin-bottom: 0.6em;
 }
 
 .project-description {
 	color: var(--secondary-color);
+	font-size: var(--fs-sm);
+	line-height: var(--lh-normal);
+	flex-grow: 1;
 }
 
 .project-link {
 	display: flex;
 	align-items: center;
-	color: var(--secondary-color);
-	font-size: 12px;
-	padding-top: 20px;
+	gap: 8px;
+	color: var(--link-color);
+	font-size: var(--fs-sm);
+	padding-top: 22px;
+	font-weight: var(--fw-bold);
 }
 
 .project-link-icon {
-	padding-left: 5px;
-	font-size: 13px;
+	font-size: var(--fs-xs);
+	transition: transform 0.25s ease;
 }
 
-.project-link-text {
-	padding-left: 20px;
-	font-weight: 700;
-}
-
-@media (max-width: 600px) {
-	.project {
-		height: 300px;
-	}
+.project:hover .project-link-icon {
+	transform: translate(2px, -2px);
 }

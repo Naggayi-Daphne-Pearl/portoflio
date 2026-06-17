@@ -2,22 +2,24 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a full stack developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Daphne", "Naggayi Daphne Pearl ", "Naggayi Daphne Pearl"],
+			"Naggayi Daphne Pearl — full-stack web & mobile developer in Kampala, Uganda. Experienced building scalable, reliable applications with Python, React, and React Native.",
+		keywords: [
+			"Naggayi Daphne Pearl",
+			"Full-stack developer",
+			"React Native developer",
+			"Software engineer Uganda",
+		],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
-		keywords: ["Naggayi Daphne Pearl", "Naggayi Daphne Pearl ", "Naggayi Daphne Pearl"],
-	},
-
-	{
-		page: "articles",
-		description:
-			"Chronological collection of my long-form thoughts on programming, leadership, product design, and more.",
-		keywords: ["Naggayi Daphne Pearl", "Naggayi Daphne Pearl", "Naggayi Daphne Pearl"],
+			"About Naggayi Daphne Pearl — full-stack software engineer with expertise in telemedicine platforms, biometric integrations, and scalable backend infrastructures.",
+		keywords: [
+			"Naggayi Daphne Pearl",
+			"Full-stack engineer",
+			"Telemedicine developer",
+		],
 	},
 
 	{

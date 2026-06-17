@@ -1,36 +1,67 @@
 import React from "react";
-import { faBriefcase, faSchool } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+
 import Card from "../common/card";
-import "./styles/article.css";
+
+import "./styles/skill.css";
+
+const technicalSkills = [
+	"Next.js & TypeScript",
+	"React",
+	"React Native",
+	"Flutter & Dart",
+	"Angular",
+	"Node.js",
+	"Laravel (PHP)",
+	"Django (Python)",
+	"Java",
+	"REST APIs & GraphQL",
+	"PostgreSQL / MySQL",
+	"Prisma & Drizzle ORM",
+	"Docker",
+	"AWS (Lambda, S3)",
+	"CI/CD — GitHub Actions",
+];
+
+const softSkills = [
+	"System Design",
+	"Agile / Scrum",
+	"Test-Driven Development",
+	"Technical Documentation",
+	"Problem-Solving",
+	"Cross-Functional Teamwork",
+];
 
 const Skills = () => {
 	return (
-		<div className="homepage-article">
-			<div className="skills-body">
-				<div className="skills-section">
-					<h3>Technical Skills</h3>
-					<ul>
-						<li>Python - (Django, Flask)</li>
-						<li>Google Cloud Platform</li>
-
-						<li>JavaScript- (React, React Native, Next Js)</li>
-						<li>Cross-platform Mobile Development</li>
-						<li>Data Structures and Algorithms</li>
-						<li>Test Driven Development</li>
-					</ul>
+		<Card
+			icon={faCode}
+			title="Skills"
+			body={
+				<div className="skills-body">
+					<div className="skills-section">
+						<h3>Technical</h3>
+						<div className="skills-badges">
+							{technicalSkills.map((skill) => (
+								<span className="skill-badge" key={skill}>
+									{skill}
+								</span>
+							))}
+						</div>
+					</div>
+					<div className="skills-section">
+						<h3>Soft skills</h3>
+						<div className="skills-badges">
+							{softSkills.map((skill) => (
+								<span className="skill-badge" key={skill}>
+									{skill}
+								</span>
+							))}
+						</div>
+					</div>
 				</div>
-				<div className="skills-section">
-					<h3>Soft Skills</h3>
-					<ul>
-						<li>Critical Thinking Skills</li>
-						<li>Agile Methodology</li>
-						<li>Project Management</li>
-						<li>Social Media Marketing</li>
-						<li>Team Work</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+			}
+		/>
 	);
 };
 

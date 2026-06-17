@@ -1,0 +1,38 @@
+@import "../../../data/styles.css";
+
+.theme-toggle {
+	position: fixed;
+	top: 3vh;
+	right: max(24px, calc((100% - 1200px) / 2 + 24px));
+	z-index: 1000;
+
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	border: 1px solid var(--border-color);
+	border-radius: 50%;
+	background: var(--card-bg);
+	color: var(--secondary-color);
+	box-shadow: var(--shadow-sm);
+	cursor: pointer;
+	font-size: 16px;
+	transition: color 0.2s ease, background-color 0.2s ease,
+		transform 0.2s ease;
+}
+
+.theme-toggle:hover {
+	color: var(--link-color);
+	transform: translateY(-2px);
+}
+
+@media (max-width: 600px) {
+	.theme-toggle {
+		right: 16px;
+		top: 2vh;
+		width: 36px;
+		height: 36px;
+	}
+}
