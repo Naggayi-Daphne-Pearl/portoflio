@@ -45,13 +45,7 @@ const Schools = () => {
 							</div>
 						</div>
 
-						<div className="work">
-							<div className="work-info">
-								<div className="work-title">
-									Diploma in Civil Engineering
-								</div>
-							</div>
-						</div>
+						
 
 						<div className="work">
 							<div className="work-info">
